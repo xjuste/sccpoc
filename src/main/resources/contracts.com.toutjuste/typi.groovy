@@ -1,4 +1,6 @@
-contracts.com.toutjuste.Contract.make {
+import org.springframework.cloud.contract.spec.Contract
+
+Contract.make {
     description "return list of typis"
     request {
         method 'GET'
